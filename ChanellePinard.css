@@ -1,12 +1,12 @@
 html, body {
-    margin: 0;
+    margin: 0; 
     padding: 0px 0px 0px 0px;
-    font-family: 'Roboto', sans-serif;
-    color: #666666;
+    font-family: 'times new roman', 'times new roman';
+    color: black; 
 }
 
 body {
-    background-color: whitesmoke;
+    background-color:black;
 }
 
 .top-bar {
@@ -21,16 +21,19 @@ body {
    position: absolute;
    padding: 0px 0px 0px 20px;
    z-index: 3;
-   color: #131359;
+   color: whitesmoke;
    font-weight: bold;
+    text-decoration: underline;
 }
 
 .top-menu {
-   background-color: #131359;
+   background-color: #3f3c3c;
    position: absolute;
-   top: 85px;
+   top: 00px;
    z-index: 2;
    width: 100%;
+    border-style: dashed;
+    border-color: black;
 }
 
 .top-menu ul {
@@ -42,20 +45,22 @@ body {
 
 .top-menu li {
     display: inline-block;
+    outline-color: black;
+    border-color: black;
 }
 
 .top-menu li a:link, .top-menu li a:visited {
-    color: white;
+    color: black;
     text-decoration: none;
     padding: 20px 20px 20.5px 20px;
 }
 
 .top-menu li a:hover {
-    background-color: red;
+    background-color: whitesmoke;
 }
 
 .current-page-link {
-    background-color: #db0e0e;
+    background-color: whitesmoke;
 }
 
 .page-content {
@@ -64,7 +69,7 @@ body {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    background-color: white;
+    background-color: lightgray;
     z-index: 1;
 }
 
@@ -79,7 +84,7 @@ body {
 .main-section figure, .main-section img {
     display: block;
     margin: auto;
-    width: 800px;
+    width: 800px
 }
 
 .footer {
@@ -94,10 +99,12 @@ body {
 
 .footer-content {
     padding: 5px 5px 5px 20px;
-    color: white;
+    color: orange;
+    font-weight: 600;
+    
 }
 
 .footer-content a:link {
-    color: white;
+    color: skyblue;
     text-decoration: none;
 }
